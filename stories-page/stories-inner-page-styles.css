@@ -1,0 +1,18 @@
+/* 
+.stories-inner-page-pic-container{
+   
+ 
+} */
+
+.stories-section__image-img{
+    /* display: block; */
+    height: 40rem;
+    width: 100%;
+    position: relative;   
+    border: 2px solid #DC9057;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 16rem;
+    
+}

@@ -1,0 +1,480 @@
+html *{
+    font-family: "Nunito";
+}
+
+
+.stories-section__image-img{
+    display: block;
+    height: 40rem;
+    width: 100%;
+    position: relative;   
+}
+
+.stories-section__image-img-mobile{
+    display:none;
+    height: 40rem;
+    width: 100%;
+    position: relative;   
+}
+
+.menu-container{
+    display:block;
+    margin-top: 2rem;
+}
+
+.menu-container-dropdown{
+    display: none;
+    margin-top: 2rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap:2rem;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;  
+}
+
+.nav-link{
+    color:#4A3A2A;
+}
+
+.nav-link.active{
+    color: #D33445;
+    border-bottom: 2px solid #D33445;
+    padding-bottom: 0.50rem;
+}
+
+.press-release-card-container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;    
+}
+
+.card-title{
+    color: #1E3569;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.card-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.read-more{
+    left: 0%;
+    right: 13.92%;
+    top: 0%;
+    bottom: 0%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #D84B59;
+    text-decoration: none;
+}
+
+
+.pagination-container{
+    margin: 3rem auto;
+}
+
+#pagination {
+    margin: 0;
+    padding:0;
+    text-align: center;  
+}
+
+#pagination li {
+    display: inline;
+}
+
+#pagination li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 12px;
+    margin: 4px 12px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s     
+}
+
+#pagination li a.active {
+    background-color: #D33445;
+    color: #fff;
+    border-radius: 50%;
+}
+
+#pagination li a:hover:not(.active) {
+    background-color: #ddd;
+} 
+
+.lt{
+    width: 10px;
+}
+
+.gt{
+    width: 10px;
+}
+
+
+.bottom-page{
+    background: #1E3569;
+}
+  
+.bottom-row-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+  
+.boy-pic-container{
+    grid-column: 1/2;
+}
+    
+.reports-container{
+    display: flex;
+    padding-top: 20px;
+}
+  
+.reports{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+  
+.jfc-groups{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+  
+.reps{
+    grid-column: 2/4;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+  
+.view-all-stories-button2{
+    margin-top: 40px;
+    background-color: #D84B59;
+    color:#FFFFFF;
+    width:200px;
+    height: 42px;
+    border: 2px solid #FFFFFF;
+    margin-left: 4rem;
+}
+  
+.links{
+    color: #00E6FF;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:992px){
+
+    .stories-section__image-img{
+        display: block;
+        height: 15rem;
+        width: 100%;
+        position: relative;   
+    }
+    
+    .stories-section__image-img-mobile{
+        display:none;
+        grid-template-columns: 1fr;
+        height: 15rem;
+        width: 100%;
+        position: relative;   
+    }
+
+    .press-release-card-container{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;    
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        gap:1rem;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 33px;  
+    }
+
+    .bottom-row-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+    
+    .boy-pic{
+        grid-column: 1/2;
+        width: 100% !important;
+        height: 100%;
+    }
+    
+    .reps{
+        grid-column: 2/3;
+        padding-left: 3rem;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 24px;
+    }
+    
+    .reports-container{
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .view-all-stories-button2{
+        margin-left: 0 ;
+        margin-bottom: 1rem;
+        margin-top: 10px;
+        width:120px;
+        height: 26px;
+    }
+    
+    #card-text{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 20px;
+        padding-left: 10px;
+    }
+    
+    .zero-hunger-pic{
+        padding-bottom: 2rem;
+    }
+    
+    .accordion-button{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    
+    .accordion-body{
+        font-size: 12px;
+    }
+    
+    .reports{
+        font-size: 25px;
+        line-height: 42px;
+    }
+    
+    .jfc-groups{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    
+    .jollibee-foundation-link{
+        font-size: 10px;
+        line-height: 15px;
+    }   
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) and (max-width:768px) {
+    .stories-section__image-img{
+        display: none;
+        height: 15rem;
+        width: 100%;
+        position: relative;   
+    }
+    
+    .stories-section__image-img-mobile{
+        display:grid;
+        grid-template-columns: 1fr;
+        height: 15rem;
+        width: 100%;
+        position: relative;   
+    }
+
+    .menu-container{
+        display:none;
+        margin-top: 2rem;
+    }
+    
+    .menu-container-dropdown{
+        display: block;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+
+    .dropdown-toggle:after{
+        margin-left: 16rem;
+    }
+
+    .dropdown-menu{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+       
+    }
+
+    .card-title{
+        color: #1E3569;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .card-text{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .press-release-card-container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;    
+    }
+
+    #pagination li a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 2px 10px;
+        margin: 2px 10px;
+        color: #000;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 50%;
+        -webkit-transition: background-color 0.3s;
+        transition: background-color 0.3s    
+    }
+
+
+
+    /* --------------Footer Banner ---------*/
+    .bottom-row-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    
+    
+    .reports-container{
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .view-all-stories-button2{
+        margin-left: 0 !important;
+        margin-bottom: 2rem;
+    }
+    
+    .boy-pic{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 100% !important;
+        height: 100%;  
+    }
+    
+    .reps{
+        padding-left: 2rem;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    #card-text{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 20px;
+        padding-left: 10px;
+    }
+    
+    .zero-hunger-pic{
+        padding-bottom: 2rem;
+    }
+    
+    .accordion-button{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    
+    .accordion-body{
+        font-size: 12px;
+    }
+    
+    .reports{
+        font-size: 25px;
+        line-height: 42px;
+    }
+    
+    .jfc-groups{
+        font-size: 13px;
+        line-height: 24px;
+        margin-right: 1rem;
+    }
+    
+    .view-all-stories-button2{
+        margin-top: 10px;
+        background-color: #D84B59;
+        color:#FFFFFF;
+        width:150px;
+        height: 32px;
+        font-size: 12px; 
+    }
+    
+    .jollibee-foundation-link{
+        font-size: 13px;
+        margin-right: 1rem;
+    }    
+    
+}
