@@ -1,0 +1,413 @@
+html *{
+    font-family: "Nunito";
+}
+
+.innerpage-container{
+    padding-top: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.stories-section__image-img{
+    display: block;
+    height: 40rem;
+    width: 100%;
+    /* position: relative;    */
+   
+}
+
+.stories-section__image-img-mobile{
+    display: none;
+    height: 40rem;
+    width: 100%;
+    /* position: relative;    */
+   
+}
+
+.lt{
+    width: 10px;
+    margin-right: 0.75rem;
+    transform: translateY(-1px);
+}
+
+.back{
+    margin-left: 10rem;
+    margin-right: 10rem; 
+    margin-top: 2rem;
+   
+}
+
+.back-to-stories{
+    text-decoration: none;
+    color: #4A3A2A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    
+}
+
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 2rem;
+    margin-left: 10rem;
+
+}
+
+.link-container{
+    margin-left: 10rem;
+    display:flex;
+    margin-bottom: 2rem;
+}
+
+.date-container{
+    display:flex;
+    gap:1rem;
+}
+
+.social-links {
+    display:flex;
+    gap: 0.75rem;
+    list-style-type: none;
+    width: 5px;
+}
+
+.date{
+    color:#777777;
+}
+
+.people{
+    background: #DC9057;
+    color:#FFFFFF;
+    border-radius: 20px;
+    padding:0.50px 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.social-icon{
+    width: 15px;
+}
+
+.social-icon-facebook{
+    width: 10px;
+}
+
+.content-container{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 3rem;
+}
+
+
+.bottom-page{
+    background: #1E3569;
+}
+  
+.bottom-row-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+  
+.boy-pic-container{
+    grid-column: 1/2;
+}
+    
+.reports-container{
+    display: flex;
+    padding-top: 20px;
+}
+  
+.reports{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+  
+.jfc-groups{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+  
+.reps{
+    grid-column: 2/4;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+  
+.view-all-stories-button2{
+    margin-top: 40px;
+    background-color: #D84B59;
+    color:#FFFFFF;
+    width:200px;
+    height: 42px;
+    border: 2px solid #FFFFFF;
+    margin-left: 4rem;
+}
+  
+.links{
+    color: #00E6FF;
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    .stories-section__image-img{
+        display: block;
+        height: 15rem;
+        width: 100%;
+       
+    }
+
+    .stories-section__image-img-mobile{
+        display: none;
+        height: 15rem;
+        width: 100%;  
+    }
+
+
+    .innerpage-container{
+        padding-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .back{
+        margin-left: 2rem;
+        margin-right: 2rem; 
+        margin-top: 2rem;
+       
+    }
+
+    .title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .link-container{
+        margin-left: 2rem;
+        display:flex;
+        margin-bottom: 2rem;
+    }
+
+    .content-container{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+
+
+
+
+    .bottom-row-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+    
+    .boy-pic{
+        grid-column: 1/2;
+        width: 100% !important;
+        height: 100%;
+    }
+    
+    .reps{
+        grid-column: 2/3;
+        padding-left: 3rem;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 24px;
+    }
+    
+    .reports-container{
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .view-all-stories-button2{
+        margin-left: 0 ;
+        margin-bottom: 1rem;
+        margin-top: 10px;
+        width:120px;
+        height: 26px;
+    }
+    
+    #card-text{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 20px;
+        padding-left: 10px;
+    }
+    
+    .reports{
+        font-size: 25px;
+        line-height: 42px;
+    }
+    
+    .jfc-groups{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    
+    .jollibee-foundation-link{
+        font-size: 10px;
+        line-height: 15px;
+    }   
+
+}
+
+@media only screen and (max-width: 600px) and (max-width:768px) {
+
+    .innerpage-container{
+        padding-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .stories-section__image-img{
+        display: none;
+        height: 15rem;
+        width: 100%;
+       
+    }
+
+    .stories-section__image-img-mobile{
+        display: block;
+        height: 15rem;
+        width: 100%;  
+    }
+
+    .back{
+        margin-left: 2rem;
+        margin-right: 2rem; 
+        margin-top: 2rem;
+       
+    }
+
+    .title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    
+    }
+
+    .link-container{
+        margin-left: 2rem;
+        display:grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+    }
+
+    .date-container{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .social-links-container{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-content:start;
+        align-items: start;
+        margin-left: -2rem;
+    }
+
+    .content-container{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+    }
+
+ 
+
+     /* --------------Footer Banner ---------*/
+     .bottom-row-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    
+    
+    .reports-container{
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .view-all-stories-button2{
+        margin-left: 0 !important;
+        margin-bottom: 2rem;
+    }
+    
+    .boy-pic{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 100% !important;
+        height: 100%;  
+    }
+    
+    .reps{
+        padding-left: 2rem;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    #card-text{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 20px;
+        padding-left: 10px;
+    }
+       
+    .reports{
+        font-size: 25px;
+        line-height: 42px;
+    }
+    
+    .jfc-groups{
+        font-size: 13px;
+        line-height: 24px;
+        margin-right: 1rem;
+    }
+    
+    .view-all-stories-button2{
+        margin-top: 10px;
+        background-color: #D84B59;
+        color:#FFFFFF;
+        width:150px;
+        height: 32px;
+        font-size: 12px; 
+    }
+    
+    .jollibee-foundation-link{
+        font-size: 13px;
+        margin-right: 1rem;
+    }    
+}
